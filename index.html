@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="San Diego Personal Wellness Club - A community dedicated to personal growth, authentic connections, and holistic wellness. Join us to Align, Connect, and Thrive.">
+    <meta name="keywords" content="wellness, personal growth, San Diego, community, mindfulness, health">
+    <meta name="author" content="San Diego Personal Wellness Club">
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon_192x192.png">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <title>San Diego Personal Wellness Club - Align, Connect, Thrive</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-2">
+                    <img src="images/website_header_logo.png" alt="SDWC Logo" class="h-12 w-auto">
+                    <span class="text-xl font-bold text-charcoal-text hidden md:inline">SDWC</span>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex space-x-6">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="events.html" class="nav-link">Events</a>
+                    <a href="https://discord.gg/KWgEkXCCzY" target="_blank" class="nav-link text-orange-primary font-semibold">
+                        <i class="fab fa-discord"></i> Discord
+                    </a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn md:hidden" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            
+            <!-- Mobile Navigation -->
+            <div class="nav-menu" id="mobileMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="events.html" class="nav-link">Events</a>
+                <a href="https://discord.gg/KWgEkXCCzY" target="_blank" class="nav-link">
+                    <i class="fab fa-discord"></i> Discord
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="fade-in-up">
+                <img src="images/website_header_logo.png" alt="San Diego Personal Wellness Club Logo" class="hero-logo mx-auto">
+                <h1 class="hero-title">San Diego Personal Wellness Club</h1>
+                <p class="hero-subtitle">"Align, Connect, Thrive"</p>
+                <p class="text-lg mb-8 max-w-2xl mx-auto">
+                    A vibrant community of health-conscious individuals committed to personal growth, 
+                    authentic connections, and evidence-based wellness practices.
+                </p>
+                <a href="https://discord.gg/KWgEkXCCzY" target="_blank" class="btn btn-primary text-lg">
+                    <i class="fab fa-discord mr-2"></i> Join Our Community on Discord
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-8">
+                    <p class="text-lg text-gray-700 leading-relaxed mb-4">
+                        Welcome to the <strong>San Diego Personal Wellness Club</strong> - where personal growth meets community connection. 
+                        We're more than just a wellness club; we're a movement of curious, empowering individuals who believe 
+                        in the transformative power of intentional living.
+                    </p>
+                    <p class="text-lg text-gray-700 leading-relaxed mb-4">
+                        Whether you're a student, young professional, or simply someone seeking deeper meaning and connection, 
+                        our community provides a welcoming space to explore evidence-based wellness practices, build authentic 
+                        relationships, and thrive together.
+                    </p>
+                    <p class="text-lg text-gray-700 leading-relaxed">
+                        Rooted in San Diego's vibrant spirit and natural beauty, we embrace a holistic approach to wellness 
+                        that nurtures mind, body, and spirit. Join us as we align with our values, connect with like-minded 
+                        individuals, and thrive in our shared journey toward well-being.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Three Pillars Section -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Our Three Pillars</h2>
+            <p class="text-center text-lg text-gray-700 mb-12 max-w-3xl mx-auto">
+                Our philosophy is built on three foundational pillars that guide everything we do. 
+                Each pillar represents a core aspect of holistic wellness and personal development.
+            </p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Align Card -->
+                <div class="card card-align fade-in-up">
+                    <div class="card-icon text-center" style="color: var(--green-primary);">
+                        <i class="fas fa-lotus"></i>
+                    </div>
+                    <h3 class="card-title text-center">Align</h3>
+                    <p class="card-text">
+                        <strong>Personal Growth & Mind-Body Harmony</strong>
+                    </p>
+                    <p class="card-text">
+                        Discover your authentic self through intentional living. We explore mindfulness practices, 
+                        emotional intelligence, and self-awareness to help you align with your deepest values and 
+                        create a life of purpose and meaning.
+                    </p>
+                    <ul class="list-disc list-inside card-text mt-4">
+                        <li>Mindfulness & meditation practices</li>
+                        <li>Self-reflection & journaling</li>
+                        <li>Values-based living</li>
+                        <li>Personal development workshops</li>
+                    </ul>
+                </div>
+
+                <!-- Connect Card -->
+                <div class="card card-connect fade-in-up">
+                    <div class="card-icon text-center" style="color: var(--orange-primary);">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="card-title text-center">Connect</h3>
+                    <p class="card-text">
+                        <strong>Community & Authentic Relationships</strong>
+                    </p>
+                    <p class="card-text">
+                        Build meaningful connections with like-minded individuals who share your commitment to growth. 
+                        Our community provides a safe, supportive space for vulnerability, shared experiences, and 
+                        genuine human connection.
+                    </p>
+                    <ul class="list-disc list-inside card-text mt-4">
+                        <li>Group discussions & sharing circles</li>
+                        <li>Community events & gatherings</li>
+                        <li>Peer support networks</li>
+                        <li>Collaborative learning experiences</li>
+                    </ul>
+                </div>
+
+                <!-- Thrive Card -->
+                <div class="card card-thrive fade-in-up">
+                    <div class="card-icon text-center" style="color: var(--ocean-pacific);">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3 class="card-title text-center">Thrive</h3>
+                    <p class="card-text">
+                        <strong>Living a Full & Meaningful Life</strong>
+                    </p>
+                    <p class="card-text">
+                        Embrace evidence-based wellness practices that nurture your whole being. From nutrition and 
+                        movement to mental health and spiritual growth, we explore holistic approaches to help you 
+                        flourish in all areas of life.
+                    </p>
+                    <ul class="list-disc list-inside card-text mt-4">
+                        <li>Holistic health & nutrition</li>
+                        <li>Movement & physical wellness</li>
+                        <li>Mental health & resilience</li>
+                        <li>Purpose-driven living</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stay Updated Section (Email Signup) -->
+    <section class="email-signup">
+        <div class="container">
+            <h2 class="text-3xl font-bold mb-4">Stay Updated</h2>
+            <p class="text-lg mb-6 max-w-2xl mx-auto">
+                Join our mailing list to receive updates about upcoming events, wellness tips, and community news.
+            </p>
+            
+            <!-- Mailchimp Email Signup Form -->
+            <!-- 
+                MAILCHIMP INTEGRATION INSTRUCTIONS:
+                =====================================
+                1. Create a Mailchimp account at https://mailchimp.com
+                2. Create a new audience/list for SDWC
+                3. Go to Audience > Signup forms > Embedded forms
+                4. Copy the form action URL (looks like: https://YOURDOMAIN.us1.list-manage.com/subscribe/post?u=XXXXX&id=YYYYY)
+                5. Replace the action URL in the form below
+                6. Test the form to ensure it works correctly
+                
+                The form below is styled to match the SDWC brand and is ready to receive the Mailchimp action URL.
+            -->
+            <form action="#" method="POST" class="email-form" id="emailSignupForm">
+                <!-- Replace the action="#" with your Mailchimp form action URL -->
+                <input 
+                    type="email" 
+                    name="EMAIL" 
+                    class="email-input" 
+                    placeholder="Enter your email address" 
+                    required
+                    aria-label="Email address"
+                >
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-paper-plane mr-2"></i> Subscribe
+                </button>
+            </form>
+            
+            <p class="text-sm mt-4 opacity-90">
+                We respect your privacy. Unsubscribe at any time.
+            </p>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="section text-center">
+        <div class="container">
+            <h2 class="text-3xl font-bold mb-6">Ready to Begin Your Wellness Journey?</h2>
+            <p class="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
+                Join our vibrant Discord community to connect with fellow wellness enthusiasts, 
+                stay informed about upcoming events, and start your journey toward personal growth and well-being.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="https://discord.gg/KWgEkXCCzY" target="_blank" class="btn btn-primary">
+                    <i class="fab fa-discord mr-2"></i> Join Our Discord
+                </a>
+                <a href="events.html" class="btn btn-outline">
+                    <i class="fas fa-calendar-alt mr-2"></i> View Events
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <!-- Social Media Links -->
+            <div class="social-links">
+                <a href="https://instagram.com/sandiegowellnessclub" target="_blank" class="social-icon" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" target="_blank" class="social-icon" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://tiktok.com/@sandiegowellnessclub" target="_blank" class="social-icon" aria-label="TikTok">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+                <a href="https://discord.gg/KWgEkXCCzY" target="_blank" class="social-icon" aria-label="Discord">
+                    <i class="fab fa-discord"></i>
+                </a>
+            </div>
+            
+            <!-- Navigation Links -->
+            <div class="footer-links">
+                <a href="index.html" class="footer-link">Home</a>
+                <a href="events.html" class="footer-link">Events</a>
+                <a href="https://discord.gg/KWgEkXCCzY" target="_blank" class="footer-link">Join Discord</a>
+            </div>
+            
+            <!-- Copyright -->
+            <div class="copyright">
+                <p>&copy; 2025 San Diego Personal Wellness Club. All rights reserved.</p>
+                <p class="mt-2 text-sm">Align. Connect. Thrive.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
