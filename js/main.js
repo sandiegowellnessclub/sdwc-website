@@ -92,13 +92,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     if (emailForm) {
         emailForm.addEventListener('submit', function(e) {
-            // If the form action is still "#", prevent submission and show message
-            if (this.getAttribute('action') === '#') {
-                e.preventDefault();
-                alert('Email signup is being configured. Please join our Discord for updates in the meantime!');
-                return false;
-            }
-            // Otherwise, let the form submit to Mailchimp
+            // Form now submits directly to Mailchimp
+            // Mailchimp will handle the redirect and confirmation
+            console.log('Email signup form submitted to Mailchimp');
         });
     }
     

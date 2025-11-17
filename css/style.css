@@ -310,6 +310,13 @@ p {
   border: none;
   font-size: 1rem;
   outline: none;
+  color: var(--charcoal-text);
+  background-color: var(--white-clean);
+}
+
+.email-input::placeholder {
+  color: var(--gray-medium);
+  opacity: 0.7;
 }
 
 .email-input:focus {
