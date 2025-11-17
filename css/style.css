@@ -147,6 +147,16 @@ p {
 }
 
 /* ============================================
+   Social Media Bar
+   ============================================ */
+.social-media-bar {
+  background-color: var(--orange-primary);
+  color: var(--white-clean);
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+/* ============================================
    Navigation
    ============================================ */
 .navbar {
