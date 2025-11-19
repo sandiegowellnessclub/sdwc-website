@@ -1,6 +1,6 @@
 # San Diego Personal Wellness Club Website
 
-![SDWC Logo](images/website_header_logo.png)
+![SDWC Logo](assets/images/website_header_logo.png)
 
 **Motto:** *Align. Connect. Thrive.*
 
