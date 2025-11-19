@@ -42,6 +42,7 @@ This is the official website for the San Diego Personal Wellness Club, a vibrant
 
 ```
 sdwc_website/
+├── index.html              # Home page
 ├── README.md               # This file
 ├── assets/                 # Favicons and static assets
 │   ├── favicon.ico
@@ -50,7 +51,6 @@ sdwc_website/
 │   └── images/
 │       └── website_header_logo.png  # Club logo
 └── src/                    # Source code
-    ├── index.html          # Home page
     ├── events.html         # Events page
     ├── css/
     │   └── style.css       # Custom styles and brand colors
@@ -75,7 +75,7 @@ sdwc_website/
    ```
 
 2. **Open in Browser**
-   - Simply open `src/index.html` in your web browser
+   - Simply open `index.html` in your web browser
    - Or use a local server for better development experience:
    
    **Using Python:**
@@ -95,10 +95,11 @@ sdwc_website/
    
    **Using VS Code Live Server Extension:**
    - Install the "Live Server" extension
-   - Right-click `src/index.html` and select "Open with Live Server"
+   - Right-click `index.html` and select "Open with Live Server"
 
 3. **Start Developing**
-   - Edit HTML files in the `src` directory
+   - Edit `index.html` in the root directory
+   - Edit `src/events.html` for the events page
    - Modify styles in `src/css/style.css`
    - Update JavaScript in `src/js/main.js`
    - Changes will reflect immediately in the browser
@@ -126,7 +127,7 @@ The website includes a placeholder email signup form ready for Mailchimp integra
      ```
 
 4. **Update index.html**
-   - Open `src/index.html` in your text editor
+   - Open `index.html` in your text editor
    - Find the email signup form (around line 200)
    - Replace `action="#"` with your Mailchimp form action URL:
    
@@ -222,7 +223,7 @@ You can add custom success and error URLs by adding these hidden fields to the f
 
 ### Changing Colors
 
-All brand colors are defined in `css/style.css` using CSS custom properties:
+All brand colors are defined in `src/css/style.css` using CSS custom properties:
 
 ```css
 :root {
@@ -254,7 +255,7 @@ Edit the footer section in both `index.html` and `events.html`:
 
 ### Modifying the Logo
 
-Replace `images/website_header_logo.png` with your new logo. For best results:
+Replace `assets/images/website_header_logo.png` with your new logo. For best results:
 - Use a transparent PNG
 - Recommended size: 300-400px width
 - Maintain aspect ratio
