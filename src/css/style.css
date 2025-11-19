@@ -8,39 +8,39 @@
   --orange-primary: #EB7D3F;
   --orange-highlight: #F39555;
   --orange-shadow: #C86631;
-  
+
   --green-primary: #76C442;
   --green-highlight: #95D65F;
   --green-shadow: #5FA031;
-  
+
   --yellow-primary: #F5D982;
   --yellow-highlight: #FBE9B0;
   --yellow-shadow: #E8C55A;
-  
+
   /* Background Colors */
   --cream-background: #F3E4D7;
-  
+
   /* Ocean Blues (San Diego Theme) */
   --ocean-pacific: #2B7A9F;
   --ocean-deep: #1A5474;
   --ocean-sky: #5BA9D0;
   --ocean-foam: #A8D5E2;
-  
+
   /* Sand Tones (San Diego Theme) */
   --sand-beach: #D4C4B0;
   --sand-light: #E8DFD2;
   --sand-warm: #C4B5A0;
-  
+
   /* Earth Tones */
   --terracotta-warm: #C85C3C;
   --terracotta-earth: #A04A30;
   --terracotta-clay: #8B3A26;
-  
+
   /* Green Accents */
   --green-succulent: #7CB342;
   --green-sage: #8A9A7E;
   --green-eucalyptus: #A2B5A0;
-  
+
   /* Neutrals */
   --white-clean: #FFFFFF;
   --charcoal-text: #2C2C2C;
@@ -72,7 +72,12 @@ html {
 /* ============================================
    Typography
    ============================================ */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 1rem;
@@ -493,6 +498,7 @@ p {
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
