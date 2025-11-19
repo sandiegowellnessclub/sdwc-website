@@ -42,19 +42,20 @@ This is the official website for the San Diego Personal Wellness Club, a vibrant
 
 ```
 sdwc_website/
-├── index.html              # Home page
-├── events.html             # Events page
 ├── README.md               # This file
 ├── assets/                 # Favicons and static assets
 │   ├── favicon.ico
 │   ├── favicon_32x32.png
-│   └── favicon_192x192.png
-├── css/
-│   └── style.css           # Custom styles and brand colors
-├── js/
-│   └── main.js             # Interactive JavaScript functionality
-└── images/
-    └── website_header_logo.png  # Club logo
+│   ├── favicon_192x192.png
+│   └── images/
+│       └── website_header_logo.png  # Club logo
+└── src/                    # Source code
+    ├── index.html          # Home page
+    ├── events.html         # Events page
+    ├── css/
+    │   └── style.css       # Custom styles and brand colors
+    └── js/
+        └── main.js         # Interactive JavaScript functionality
 ```
 
 ## 🚀 Setup Instructions
@@ -74,7 +75,7 @@ sdwc_website/
    ```
 
 2. **Open in Browser**
-   - Simply open `index.html` in your web browser
+   - Simply open `src/index.html` in your web browser
    - Or use a local server for better development experience:
    
    **Using Python:**
@@ -94,12 +95,12 @@ sdwc_website/
    
    **Using VS Code Live Server Extension:**
    - Install the "Live Server" extension
-   - Right-click `index.html` and select "Open with Live Server"
+   - Right-click `src/index.html` and select "Open with Live Server"
 
 3. **Start Developing**
-   - Edit HTML files in the root directory
-   - Modify styles in `css/style.css`
-   - Update JavaScript in `js/main.js`
+   - Edit HTML files in the `src` directory
+   - Modify styles in `src/css/style.css`
+   - Update JavaScript in `src/js/main.js`
    - Changes will reflect immediately in the browser
 
 ## 📧 Mailchimp Integration
@@ -125,7 +126,7 @@ The website includes a placeholder email signup form ready for Mailchimp integra
      ```
 
 4. **Update index.html**
-   - Open `index.html` in your text editor
+   - Open `src/index.html` in your text editor
    - Find the email signup form (around line 200)
    - Replace `action="#"` with your Mailchimp form action URL:
    
